@@ -1,0 +1,118 @@
+
+/*--------Desktop Screens-------------------------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1279px){
+    body {
+        margin:0;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bodyDiv{
+        margin:0;
+        height: 100vh;
+        width:100%;
+        background-image: url(../images/BACKGROUND.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+    h1{
+        font-size: 40px;
+    }
+    img{
+        height:200px;
+        width:300px;
+    }
+    #imgDiv{
+        width:100%;
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;   
+    }
+    img{
+        margin:1%;
+    }
+    #DavidAtt{
+        width:45%;
+        height:70%;
+    }
+    .links{
+        margin-top:2%;
+        width:50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    a{
+        font-size: 22px;
+    }
+    p{
+        font-size: 22px;
+    }
+}
+
+/*--------Large Screens-------------------------------------------------*/
+
+@media only screen and (min-width: 1280px){
+    body {
+        margin:0;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bodyDiv{   
+        margin:0;
+        height: 100vh;
+        width:100%;
+        background-image: url(../images/BACKGROUND.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+    h1{
+        font-size: 40px;
+    }
+    img{
+        height:250px;
+        width:350px;
+    }
+    #imgDiv{
+        width:90%;
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;   
+    }
+    img{
+        margin:1%;
+    }
+    #DavidAtt{
+        width:45%;
+        height:70%;
+    }
+    .links{
+        margin-top:2%;
+        width:50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    a{
+        font-size: 22px;
+    }
+    p{
+        font-size: 22px;
+    }
+}
